@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+
+	<title>Intro to HTML, CSS and JS</title>
+		<link rel="stylesheet" type="text/css" href="newshack.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+
+			$("a#popup1").fancybox();
+			});
+	</script>
+</head>
+	<body>
+
+		<div class="intro"><h1>This is a headline</h1>
+		<a id="popup1" href="bigdata.jpg"><img alt="bigdata" src="bigdata_small.jpg" /></a>
+			This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.Bacon ipsum dolor amet kielbasa rump corned beef capicola pancetta t-bone ham pork shankle. Brisket porchetta jowl shank meatloaf tri-tip, strip steak venison picanha shankle chuck ball tip leberkas beef salami. Pork chop prosciutto sirloin cow, chuck drumstick tri-tip spare ribs salami tongue meatball rump t-bone ham hock. Meatball tri-tip boudin chicken.
+		</div>
+		
+		<div class="column">
+					<h3>Headline for box 1</h3>
+					 This is our introduction text about the project we created. <a href="http://www.newshackarizona.org/" target="new">This is a link to News Hack Arizona's website that should open in a new window</a>.
+		</div> 
+
+		<div class="column">
+						<h3>Headline for box 2</h3>
+						 This is a second paragraph of text and we'll add some bacon ipsum. Bacon ipsum dolor amet kielbasa rump corned beef capicola pancetta t-bone ham pork shankle. Brisket porchetta jowl shank meatloaf tri-tip, strip steak venison picanha shankle chuck ball tip leberkas beef salami. Pork chop prosciutto sirloin cow, chuck drumstick tri-tip spare ribs salami tongue meatball rump t-bone ham hock. Meatball tri-tip boudin chicken.
+		</div>
+
+			<!-- Now let's create an unordered list with a headline -->
+		<div class="column">
+
+				<h3>Headline for box 3</h3>
+				<ul>
+					<li>One</li>
+					<li>Two</li>
+					<li>Three</li>
+				</ul>
+		<!-- What about an ordered list -->	
+				<ol>
+					<li>One</li>
+					<li>Two</li>
+					<li>Three</li>
+				</ol>
+		</div>
+
+
+		<!-- Now let's embed a map from Google Fusion and center it -->
+		<div class="embeds">
+			<center><iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col3+from+1_tzSsp-OmfBgonClDHwcMcAfg7PRgRmpugExTOhR&amp;viz=MAP&amp;h=false&amp;lat=32.232033291685006&amp;lng=-110.93987788890382&amp;t=1&amp;z=14&amp;l=col3&amp;y=2&amp;tmplt=2&amp;hml=GEOCODABLE"></iframe></center>
+		</div>
+
+
+		<!-- And a video -->
+		<div class="embeds"><iframe width="100%" height="300" src="https://www.youtube.com/embed/5Zg-C8AAIGg" frameborder="0" allowfullscreen></iframe>
+			
+		</div>
+
+</body>
+</html>

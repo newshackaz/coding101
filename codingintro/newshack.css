@@ -1,0 +1,54 @@
+body {
+	font-size: 16px;
+	font-color: black;
+	font-family: georgia;
+}
+h1 {
+color: gray;
+font-size: 45px;
+font-family: helvetica;
+}
+
+img {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+div{
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+}
+
+.intro {
+	background: #eeeeee;
+	width: 95%;
+	padding: 20px;
+
+}
+
+.column{
+	border: 1px solid;
+	padding: 3px;
+	width: 30%;
+	margin: 3px;
+	
+	 }
+.embeds	 {
+	border: 1px solid;
+	padding: 3px;
+	width: 45%;
+	margin: 10px;
+	display: inline-block;
+}
+
+a {
+	color: green;
+}
+
+
+
+
+
